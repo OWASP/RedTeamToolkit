@@ -1,16 +1,36 @@
 {
 	"folders": [
 		{
-			"name": "root",
-			"path": "."
+			"name" : "Config Files",
+			"path" : "./configs"
 		},
 		{
 			"name": "Tests/POC",
 			"path": "./WASM_tests"
 		},
+		{
+			"name": "Docs",
+			"path": "./Docs"
+		},
+		{
+			"name": "Base",
+			"path": "./"
+		}
 
 	],
+	"extensions": {
+		"recommendations": [
+			"rust-lang.rust",
+			"swellaby.rust-pack",
+			"jscearcy.rust-doc-viewer",
+			"statiolake.vscode-rustfmt",
+			"serayuzgur.crates",
+			"panicbit.cargo",
+			"jcmellado.vscode-wasm-essentials"
+		]
+	},
 	"settings": {
+		"rust-client.autoStartRls": true,
 		"liveServer.settings.port": 5501
 	}
 }

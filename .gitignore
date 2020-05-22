@@ -18,7 +18,7 @@ Cargo.lock
 
 # Icon must end with two \r
 Icon
-
+*_tests
 
 # Thumbnails
 ._*
