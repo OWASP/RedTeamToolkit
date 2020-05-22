@@ -1,0 +1,17 @@
+var ALIASES = {};
+ALIASES["bumpalo"] = {};
+ALIASES["cfg_if"] = {};
+ALIASES["js_sys"] = {};
+ALIASES["lazy_static"] = {};
+ALIASES["log"] = {};
+ALIASES["proc_macro2"] = {};
+ALIASES["quote"] = {};
+ALIASES["redteam_toolkit"] = {};
+ALIASES["syn"] = {};
+ALIASES["unicode_xid"] = {};
+ALIASES["wasm_bindgen"] = {};
+ALIASES["wasm_bindgen_backend"] = {};
+ALIASES["wasm_bindgen_macro"] = {};
+ALIASES["wasm_bindgen_macro_support"] = {};
+ALIASES["wasm_bindgen_shared"] = {};
+ALIASES["web_sys"] = {};

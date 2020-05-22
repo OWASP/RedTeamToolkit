@@ -17,7 +17,8 @@ Cargo.lock
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -44,7 +45,6 @@ Temporary Items
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-*.code-workspace
 
 ### VisualStudio
 ## Ignore Visual Studio temporary files, build results, and

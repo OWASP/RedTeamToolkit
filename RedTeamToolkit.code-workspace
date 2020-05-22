@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "root",
+			"path": "."
+		},
+		{
+			"name": "Tests/POC",
+			"path": "./WASM_tests"
+		},
+
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}
