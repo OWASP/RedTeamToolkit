@@ -1,12 +1,12 @@
 {
 	"folders": [
 		{
-			"name" : "Config Files",
-			"path" : "./configs"
+			"name" : "Web Compat",
+			"path": "./src_web/"
 		},
 		{
-			"name": "Tests/POC",
-			"path": "./WASM_tests"
+			"name": "WASMTime Compat",
+			"path": "./src_wasmtime/"
 		},
 		{
 			"name": "Docs",
