@@ -2,11 +2,11 @@
 	"folders": [
 		{
 			"name" : "Web Compat",
-			"path": "./src_web/"
+			"path": "./tests/src/server/"
 		},
 		{
 			"name": "WASMTime Compat",
-			"path": "./src_wasmtime/"
+			"path": "./tests/src/wasmtime/"
 		},
 		{
 			"name": "Docs",
@@ -15,8 +15,7 @@
 		{
 			"name": "Base",
 			"path": "./"
-		}
-
+		},
 	],
 	"extensions": {
 		"recommendations": [
@@ -27,10 +26,10 @@
 			"serayuzgur.crates",
 			"panicbit.cargo",
 			"jcmellado.vscode-wasm-essentials"
-		]
+		],
 	},
 	"settings": {
 		"rust-client.autoStartRls": true,
-		"liveServer.settings.port": 5501
-	}
+		"liveServer.settings.port": 5501,
+	},
 }
