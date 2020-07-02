@@ -4,8 +4,8 @@ author : Sam Aldis
 contact : samuel.aldis@owasp.org
 contributors : 
     - OWASP
-    - [Sam Aldis](https://github.com/sam-aldis)
-    - [Tony](https://github.com/crazykid95)
+    - Sam Aldis: https://github.com/sam-aldis
+    - Tony:  https://github.com/crazykid95
     - Your name here
 slack: https://owasp.slack.com/archives/CH7CYTMRD
 repo : https://github.com/OWASP/RedTeamToolkit.git
