@@ -4,18 +4,14 @@ edition = "2018"
 name = "server"
 version = "0.1.0"
 [dependencies]
-wasm-bindgen = "*"
 js-sys = "*"
+wasm-bindgen = "*"
+wasm-bindgen-futures = "*"
+yew = "*"
+
 [dependencies.web-sys]
+features = ["Document", "Element", "HtmlElement", "Node", "Window", "EventListener"]
 version = "0.3.4"
-features = [
-  'Document',
-  'Element',
-  'HtmlElement',
-  'Node',
-  'Window',
-  'EventListener',
-]
 
 [lib]
 crate-type = ["cdylib", "rlib"]
