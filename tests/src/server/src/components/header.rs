@@ -1,11 +1,10 @@
-// use yew::{
-//       Component
-//     , ComponentLink
-//     , html
-//     , Html
-//     , ShouldRender
-// };
-use yew::prelude::*;
+use yew::{
+      Component
+    , ComponentLink
+    , html
+    , Html
+    , ShouldRender
+};
 
 pub struct Header {
     link : ComponentLink<Self>,
@@ -23,15 +22,19 @@ impl Component for Header {
         Header { link }
     }
     fn update(&mut self, ev : Self::Message) -> ShouldRender {
-        true
+        let should_render : bool = false;
+        // NOTE: change should_render to true if any changes are made that will update the visual dom
+        should_render && true
     }
     fn change(&mut self, _props: Self::Properties) -> ShouldRender {
-        true
+        let should_render : bool = false;
+        // NOTE: change should_render to true if any changes are made that will update the visual dom
+        should_render && true
     }
     fn view(&self) -> Html {
         html! {
             <>
-                <header>
+                <header class="full--width">
                     {"test"}
                 </header>
             </>

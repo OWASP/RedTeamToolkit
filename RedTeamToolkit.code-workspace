@@ -25,11 +25,31 @@
 			"statiolake.vscode-rustfmt",
 			"serayuzgur.crates",
 			"panicbit.cargo",
-			"jcmellado.vscode-wasm-essentials"
+			"jcmellado.vscode-wasm-essentials",
+			"wayou.vscode-todo-highlight"
 		],
 	},
 	"settings": {
 		"rust-client.autoStartRls": true,
 		"liveServer.settings.port": 5501,
-	},
+		"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+		"gitlens.views.repositories.branches.layout": "list",
+		"files.watcherExclude": {
+        	"**/target/**": true
+    	},
+		"todohighlight.keywords": [
+			{
+				"text": "NOTE:",
+				"backgroundColor": "#f42",
+				"color": "#000; font-style: italic;text-decoration: overline;//my sneaky addition",
+				"overviewRulerColor": "#f42"
+			},
+			{
+				"text": "INFO:",
+				"backgroundColor": "#13A3AF",
+				"color": "#ec2424",
+				"overviewRulerColor": "#13A3AF"
+			}
+		]
+	}
 }
