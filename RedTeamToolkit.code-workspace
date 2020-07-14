@@ -1,12 +1,8 @@
 {
 	"folders": [
 		{
-			"name" : "Web Compat",
-			"path": "./tests/src/server/"
-		},
-		{
-			"name": "WASMTime Compat",
-			"path": "./tests/src/wasmtime/"
+			"name" : "Code",
+			"path": "./main/"
 		},
 		{
 			"name": "Docs",

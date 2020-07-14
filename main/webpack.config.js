@@ -2,6 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 const WasmPackPlugin = require("@wasm-tool/wasm-pack-plugin");
+const ScssPlugin = require('scss-config-webpack-plugin');
 
 module.exports = {
     entry: './index.js',
@@ -11,6 +12,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin(),
+        new ScssPlugin(),
         new WasmPackPlugin({
             crateDirectory: path.resolve(__dirname, ".")
         }),
